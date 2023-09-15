@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./stadium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sec1{
+    height: 800px;
+    width: 1100px;
+    border: 1px solid #f5deb3;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #4A55A2;
+    background-image: url(./ms.jpg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 1000px rgba(0, 0, 0, 0.7);
+}
+#parent1{
+    height: 100px;
+    width: 700px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5px;
+}
+#parent1 h1{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+#parent2{
+    height: 680px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 400px;
+    box-sizing: border-box;
+}
+.child{
+    height: 150px;
+    width: 150px;
+    border: 1px solid;
+    border-radius: 50px;
+   
+    
+}
+#parent2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+}
+table{
+    width: 180px;
+    position: absolute;
+    font-size: medium;
+    background-color: rgba(39, 158, 255, 0.8);
+    color: white;
+}
+table tr th{
+    color: black;
+}
+details{
+    font-size: small;
+    margin-top: 130px;
+    margin-right: 100px;
+}
+.child details summary{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
